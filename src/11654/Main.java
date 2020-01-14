@@ -1,14 +1,10 @@
 import java.io.*;
-import java.util.Arrays;
 import java.util.Scanner;
 
-class Main {
+class Main11654 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-
-
-
+        char a = sc.nextLine().charAt(0);
+        System.out.println((int)a);
     }
 }
